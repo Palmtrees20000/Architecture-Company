@@ -1,0 +1,141 @@
+/* Prevent adjustments of font size after orientation changes.  */
+html {
+    -moz-text-size-adjust: none;
+    -webkit-text-size-adjust: none;
+    text-size-adjust: none;
+    height: 100%;
+}
+
+
+/*---- apply a natural box layout model to all elements -------*/
+* {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100%;
+    font-family: $defaultFont;
+    font-weight: $normalWeight;
+    color: $primaryColor;
+}
+
+/* --------------------------- HEADER --------------------------- */
+#headerWrapper {
+    border-bottom: 1px solid $primaryColor;
+    background: #f5f5f5;
+    color: $primaryColor;
+}
+
+header {
+    display: grid;
+    grid-template-columns: 30px auto 44px;
+    column-gap: $gutter;
+    align-items: center; //vertically
+    padding: $gutter;
+    .company-name {
+        font-size: 1.6rem;
+        font-weight: $normalWeight;
+        color: $primaryColor;
+    }
+}
+
+/* --------------------------- NAVIGATION STUFF GOES HERE --------------------------- */
+
+#navWrapper {
+    background-color: $primaryColor;
+}
+nav {
+    ul {
+        padding: 0;
+        margin: 0;
+    }
+    ul li {
+        list-style-type: none;
+    }
+    ul li a {
+        color: white;
+        text-align: center;
+        text-decoration: none;
+        display: block;
+        padding: .8rem $gutter;
+        border-bottom: dashed 1px rgba (0,0,0,0.2);
+    }
+    ul li:last-child a {
+        border-bottom: none;
+    }
+    ul li.active a {
+        color: $secondaryColor;
+        font-weight: $normalWeight;
+    }
+}
+
+
+
+// --------------------------- MAIN CONTENT AREA ---------------------------
+h1 {
+    font-size: 2rem;
+    font-weight: 700;
+    color: $primaryColor;
+    padding: $gutter;
+}
+
+.hero {
+    width: 100%;
+    height: auto;
+    img {
+        width: 100%;
+        height: 300px;
+        max-width: 1500px;
+        object-fit: cover;
+        object-position: center 25%;
+        display: block;
+        margin: 0 auto;
+    }
+}
+
+video {
+    width: 90%;
+    margin-left: 5%;
+}
+
+details{
+    margin: .5rem $gutter;
+    summary {
+        font-weight: 600;
+        cursor: pointer;
+        outline: none;
+        background-color: #A1683A;
+        padding: 1rem;
+        color: white;
+        border: none;
+        border-radius: 8px;
+    }
+}
+
+// begin the footer
+
+#footerWrapper {
+    background-color: $primaryColor;
+    color: $greyColor;
+}
+
+footer {
+    padding: 0.5rem $gutter;
+
+    p {
+        margin: 0;
+        font-weight: 400;
+        text-align: center;
+    }
+}
+
+.parent {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+}
+
+
+

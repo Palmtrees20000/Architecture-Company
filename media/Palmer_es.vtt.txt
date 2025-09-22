@@ -1,0 +1,22 @@
+﻿WEBVTT
+
+00:00:00.657 --> 00:00:08.160
+"Hola, soy Palmer Charles. Actualmente mi especialidad es diseño y desarrollo web,
+
+00:00:08.160 --> 00:00:15.200
+especializado en diseño UX. ¿Cuánto he avanzado? Llevo unos tres años,
+
+00:00:15.200 --> 00:00:20.560
+tres años y medio. Ya casi termino.
+
+Me queda como un año y medio,
+
+00:00:20.560 --> 00:00:27.680
+así que espero que todo salga bien. ¿Cuántos créditos estoy cursando hasta ahora? Unos 11. Sé que no son 12, pero aun así es bastante trabajo, así que espero poder con ello. 00:00:35.320 --> 00:00:42.400
+"¿Dónde trabajo actualmente? Trabajo en Nickel City. Así que si me conocen,
+
+00:00:42.400 --> 00:00:48.960
+sin duda, pásense y puedo conseguirles entrada gratis. Obviamente, tienen que hablar conmigo
+
+00:00:48.960 --> 00:00:54.800
+mientras trabajo. No creo que puedan entrar gratis si no estoy allí."
