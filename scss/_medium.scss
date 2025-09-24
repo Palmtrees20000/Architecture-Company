@@ -12,13 +12,13 @@
     }
     ul li a:hover {
         text-decoration: underline;
-        text-decoration-style: wavy;
+    color: #B22234;
         text-underline-offset: 3px;
         }
 }
 
 nav ul li.active a{
-    background: none;
+    color: #B22234;
     color: #f28383;
     padding: 1rem 2rem;
     border-radius: 16px;

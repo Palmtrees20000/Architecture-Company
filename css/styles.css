@@ -381,14 +381,14 @@ nav ul li.active a {
 
 nav ul li.active a {
   background: none;
-  color: #f28383;
+  color: #B22234;
   padding: 1rem 2rem;
   border-radius: 16px;
 }
 
 nav ul li a:hover {
   background: none;
-  color: #f28383;
+  color: #B22234;
   padding: 1rem 2rem;
   border-radius: 16px;
 }
@@ -466,11 +466,11 @@ footer p {
   }
   nav ul li a:hover {
     text-decoration: underline;
-    text-decoration-style: wavy;
+    color: #B22234;
     text-underline-offset: 3px;
   }
   nav ul li.active a {
-    background: none;
+    color: #B22234;
     color: #f28383;
     padding: 1rem 2rem;
     border-radius: 16px;
@@ -514,13 +514,13 @@ footer p {
   }
   nav ul li.active a {
     background: none;
-    color: #f28383;
+    color: #B22234;
     padding: 1rem 2rem;
     border-radius: 16px;
   }
   nav ul li a:hover {
     background: none;
-    color: #f28383;
+    color: #B22234;
     padding: 1rem 2rem;
     border-radius: 16px;
   }
